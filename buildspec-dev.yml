@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      #- rm package-lock.json
+      - rm package-lock.json
       - npm install --silent --progress=false -g npm
       
       ## Dependencies
