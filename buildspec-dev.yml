@@ -4,6 +4,7 @@ phases:
   install:
     commands:
       - rm package-lock.json
+      - npm i npm@6.0.1
       - npm install --silent --progress=false -g npm
       
       ## Dependencies
